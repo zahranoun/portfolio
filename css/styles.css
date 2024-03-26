@@ -3,7 +3,7 @@
     }
 
     .hover-fill:hover {
-      background-color: #007bff;
+      background-color: rgba(0, 0, 0, 0.1);
       color: #fff; 
     }
 
@@ -11,8 +11,70 @@
       margin-right: 15px;
     }
 
+    /* Cards for Work page */
+    :root {
+      --custom-margin-top: 150px;
+      --custom-gutter-x: 25px;
+      --custom-gutter-y: 15px;
+      --custom-card-margin-bottom: 15px;
+    }
 
-     html, body {
+    .row {
+      --bs-gutter-x: var(--custom-gutter-x);
+      --bs-gutter-y: var(--custom-gutter-y);
+    }
+
+    .card {
+      margin-top: var(--custom-margin-top);
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: box-shadow 0.3s;
+      
+    }
+
+    .btn-dark {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-img-top {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      color: #555;
+    }
+
+    .btn-dark {
+      background-color: rgba(34, 37, 41);
+    }
+
+    .btn-dark:hover {
+      background-color: #db92e1;
+      background-color: #db92e1;
+    }
+
+
+    html, body {
       height: 100%;
     }
 
@@ -25,8 +87,9 @@
       flex: 1;
     }
 
+    /* Footer */
     footer {
-      background-color: #f8f9fa; /* Adjust as needed */
+      background-color: #f8f9fa;
       padding: 20px 0;
     }
 
