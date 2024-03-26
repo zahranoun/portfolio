@@ -19,6 +19,10 @@
       --custom-card-margin-bottom: 15px;
     }
 
+    .card-text {
+      margin-bottom: 20px;
+    }
+
     .row {
       --bs-gutter-x: var(--custom-gutter-x);
       --bs-gutter-y: var(--custom-gutter-y);
@@ -38,6 +42,14 @@
     .btn-dark {
       display: flex;
       justify-content: center;
+    }
+    
+    :root {
+      --button-width: 100px;
+    }
+
+    .btn {
+      width: var(--button-width);
     }
 
     .card:hover {
