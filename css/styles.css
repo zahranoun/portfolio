@@ -1,4 +1,38 @@
-.nav-link {
+.hover-fill {
+      transition: background-color 0.3s;
+    }
+
+    .hover-fill:hover {
+      background-color: #007bff;
+      color: #fff; 
+    }
+
+    .navbar .nav-item {
+      margin-right: 15px;
+    }
+
+
+     html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #f8f9fa; /* Adjust as needed */
+      padding: 20px 0;
+    }
+
+
+
+/*.nav-link {
   transition: all 0.2s;
   position: relative;
 }
