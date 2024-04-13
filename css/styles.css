@@ -15,6 +15,26 @@
   margin-top: 100px;
 }
 
+.skip-link {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  background-color: #db92e1;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-link:hover {
+  background-color: #000; /* Change background color on hover */
+}
+
+.skip-link:focus {
+  top: 0; /* Move the skip link to the top when focused */
+}
+
 /* Cards for Work page */
 :root {
   --custom-margin-top: 150px;
