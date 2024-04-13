@@ -42,6 +42,16 @@
   transition: box-shadow 0.3s;
 }
 
+.btn-primary {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+  background-color: hsl(0, 0%, 20%);
+  border-color: hsl(0, 0%, 20%);
+}
+
 .btn-dark {
   display: flex;
   justify-content: center;
@@ -84,7 +94,6 @@
 }
 
 .btn-dark:hover {
-  background-color: #db92e1;
   background-color: #db92e1;
 }
 
