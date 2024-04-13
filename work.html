@@ -24,9 +24,11 @@
   </head>
   <body>
     <!--Navigation-->
-    <nav class="navbar fixed navbar-expand-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar fixed-top navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/logo.svg" alt="Image of an logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -41,12 +43,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="work.html"
-                >Work</a
-              >
+              <a class="nav-link" href="work.html">Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -57,7 +59,9 @@
     </nav>
     <!--Work Information-->
     <main class="container mt-5 content">
-      <h1 class="display-1 fw-bold">Creating elevating digital products</h1>
+      <h1 class="display-1 fw-bold intro">
+        Creating elevating digital products
+      </h1>
       <hr />
     </main>
     <!--Cards for Projects-->
