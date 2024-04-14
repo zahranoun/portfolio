@@ -14,7 +14,7 @@
 .intro {
   margin-top: 100px;
 }
-
+/* Skip Link */
 .skip-link {
   position: absolute;
   top: 42px;
@@ -28,12 +28,13 @@
 }
 
 .skip-link:hover {
-  background-color: #000; /* Change background color on hover */
+  background-color: #000; /* background color on hover */
 }
 
 .skip-link:focus {
-  top: 0; /* Move the skip link to the top when focused */
+  top: 0;
 }
+/* Skip Link */
 
 /* Cards for Work page */
 :root {
@@ -116,7 +117,9 @@
 .btn-dark:hover {
   background-color: #db92e1;
 }
+/* Cards for Work page End*/
 
+/* Main Content */
 html,
 body {
   height: 100%;
@@ -139,6 +142,7 @@ p {
 .content {
   flex: 1;
 }
+/* Main Content End */
 
 /* Footer */
 footer {
