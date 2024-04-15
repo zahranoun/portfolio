@@ -17,24 +17,22 @@
 /* Skip Link */
 .skip-link {
   position: absolute;
-  top: 42px;
+  top: -999em;
   left: 0;
   background-color: #db92e1;
   color: #fff;
-  padding: 0.5rem;
-  border-radius: 10px;
+  padding: 1em;
   text-decoration: none;
   z-index: 1000;
 }
 
 .skip-link:hover {
-  background-color: #000; /* background color on hover */
+  background-color: #000; /* Change background color on hover */
 }
 
 .skip-link:focus {
-  top: 0;
+  top: 0; /* Move the skip link to the top when focused */
 }
-/* Skip Link */
 
 /* Cards for Work page */
 :root {
